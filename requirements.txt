@@ -1,0 +1,35 @@
+# MedIntel AI – Clinical Document Intelligence System
+# Install all dependencies with: pip install -r requirements.txt
+
+# Core UI
+streamlit>=1.32.0
+
+# PDF Extraction
+pdfplumber>=0.10.3
+
+# OCR fallback for scanned PDFs
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# NLP / Medical Entity Extraction
+# scispacy requires spacy to be installed first
+spacy>=3.7.0
+scispacy>=0.5.3
+
+# Date parsing
+dateparser>=1.2.0
+
+# Sentence embeddings
+sentence-transformers>=2.6.1
+
+# Vector database
+chromadb>=0.4.24
+
+# Utilities
+python-dateutil>=2.8.2
+pandas>=2.0.0
+
+# NOTE: After installing, download the scispacy medical model:
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_sm-0.5.3.tar.gz
+# If that fails, use the standard spacy model as fallback:
+# python -m spacy download en_core_web_sm
