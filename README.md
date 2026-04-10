@@ -7,7 +7,9 @@
 
 ## 📸 Screenshot
 
-> *(Add a screenshot of your dashboard here after running the app — drag the image into this file on GitHub)*
+> ![alt text](image.png)
+> ![alt text](image-1.png)
+> ![alt text](image-2.png)
 
 ---
 
@@ -48,7 +50,7 @@ medintel-ai/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/medintel-ai.git
+git clone https://github.com/SidharthaSagolsem/MedIntel-AI
 cd medintel-ai
 ```
 
@@ -146,5 +148,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+Sidhartha Sagolsem 
+[GitHub](https://github.com/SidharthaSagolsem) · [LinkedIn](https://www.linkedin.com/in/sidhartha-sagolsem/)
